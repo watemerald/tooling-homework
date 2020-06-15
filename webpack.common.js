@@ -3,14 +3,8 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  mode: "development",
   entry: {
     app: "./src/index.js",
-  },
-  devtool: "inline-source-map",
-  devServer: {
-    contentBase: "./dist",
-    hot: true,
   },
   output: {
     filename: "[name].bundle.js",
@@ -18,7 +12,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({ title: "Dev Server/HMR" }),
+    new HtmlWebpackPlugin({ title: "Production Mode" }),
   ],
   module: {
     rules: [
