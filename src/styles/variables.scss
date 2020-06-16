@@ -1,0 +1,17 @@
+$blue: rgb(12, 122, 192);
+$grey: rgb(84, 106, 120);
+
+// Typography
+$font-mono: "Courier", monospace;
+$font-sans: "Source Sans Pro", Arial, sans-serif;
+$font-serif: "Bree Serif", Times, serif;
+$base-font-color: $grey;
+$base-font-family: $font-sans;
+$base-font-size: 16px;
+$font-normal: 400;
+$font-semibold: 600;
+$font-bold: 700;
+
+// Borders
+$base-border: 1px solid $grey;
+$base-radius: 0.25rem;
